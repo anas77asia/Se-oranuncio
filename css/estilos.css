@@ -1,0 +1,189 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+/* ESTILO ES GENERAL PARA EL SITIO WEB */
+body{
+    background:#FEFEFE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* ESTILO PARA EL ENCABEZADO */
+.superior{
+    background: #FF3333;
+    overflow: hidden;
+}
+
+.logo-señor-anuncio{
+    float: left;
+    width: 500px;
+    padding: 30px;
+}
+
+.menu{
+    float: left;
+    padding: 110px;
+    font-size: 23px
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+
+.opciones li a{
+    color: #FEFEFE;
+    padding: 60px;
+    text-decoration: none;
+    border: 0px solid white
+}
+
+
+.opciones li a:hover{
+    background: black;
+
+
+}
+
+.container{
+    width: 1800px;
+    margin: 13px auto;
+
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+    
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    
+}
+
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% { margin-left: 0;}
+
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+
+    75% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+/* estilo para servicios */
+.cuerpo{
+    overflow: hidden;
+}
+
+.titulo{
+    text-align: center;
+    padding: 60px 0 15px 0;
+    color:#ff4500;
+    font-size: 56px;
+}
+
+.caja{
+    float: left;
+    width: 530px;
+    margin: 8px;
+    border: 0.1px solid #FF3333;
+    padding: 20px 20px 20px 20px;
+}
+
+.subtitulo{
+    color: white;
+    background: #FF3333;
+    text-align: center;
+    padding: 50px 0 15px 0;
+}
+
+.parrafo{
+    columns: #f000f0;;
+    font-family: sans-serif;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.efecto:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.boton{
+    color: white;
+    background: #FF3333;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background: #ff4500;
+}
+.servicios{
+    padding: 10px 0 15px 0;
+    text-align: center;
+}
+
+.localizacion{
+    padding: 20px 0 15px 0;
+    color: #ff7600;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* estilo para pie de pagina */
+.pie{
+    overflow: hidden;
+    background: linear-gradient(#ff4500, #EC8856);
+}
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 20px;
+}
+.abajo{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.derecha{
+    float: right;
+    width: 550px;
+    padding: 20px;
+    
+}
+.siguenos{
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+    font-size: 20;
+}
+.face{
+    padding: 25px;
+    color: white;
+}
+.insta{
+    padding: 20px;
+    color: white;
+}
