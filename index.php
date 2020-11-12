@@ -65,7 +65,7 @@
                         <article class="caja">
                             <div class="subtitulo">
                                 <img src="imagenes/servicio02.png" width="100%" class="efecto" height="200">
-                                <h3 class="servicios">POSICONAMIENTO SEO</h3>
+                                <h3 class="servicios">POSICIONAMIENTO SEO</h3>
                             </div>
                             <div>
                                 <p class="parrafo">
